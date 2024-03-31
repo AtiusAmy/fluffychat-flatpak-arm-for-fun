@@ -20,7 +20,7 @@
         {
             "name": "libjsoncpp",
             "only_arches": [
-                "x86_64"
+                "aarch64"
             ],
             "buildsystem": "meson",
             "config-opts": [
@@ -65,7 +65,7 @@
             "name": "fluffychat",
             "buildsystem": "simple",
             "only-arches": [
-                "x86_64"
+                "aarch64"
             ],
             "build-commands": [
                 "ls fluffychat",
@@ -84,16 +84,16 @@
                 {
                     "type": "archive",
                     "only-arches": [
-                        "x86_64"
+                        "aarch64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.18.0/fluffychat-linux-x64.tar.gz",
+                    "url": "https://github.com/AtiusAmy/fluffychat/releases/download/main/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "d72a696dfa00f746a714f486a8d3cdc779caf589c435998492250232fa7ab078",
+                    "sha256": "2838be8b6f75fa591a105a98c6c3f2063a355d882adf0ebcc46a23e2d4479a7c",
                     "x-checker-data": {
                         "type": "json",
-                        "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
+                        "url": "https://api.github.com/repos/AtiusAmy/fluffychat/releases/latest",
                         "version-query": ".tag_name | sub(\"v\";\"\")",
-                        "url-query": ".assets[] | select(.name==\"fluffychat-linux-x64.tar.gz\") | .browser_download_url"
+                        "url-query": ".assets[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .browser_download_url"
                     }
                 },
                 {
