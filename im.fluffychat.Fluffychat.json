@@ -14,7 +14,8 @@
         "--device=all",
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
-        "--own-name=chat.fluffy.fluffychat"
+        "--own-name=chat.fluffy.fluffychat",
+        "--talk-name=org.freedesktop.secrets"
     ],
     "modules": [
         {
@@ -88,7 +89,7 @@
                     ],
                     "url": "https://github.com/AtiusAmy/fluffychat/releases/download/main/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "c66678d3c711b9b0e995a7bec956d9a98ec228c23713eb88ceca33cbc676931b",
+                    "sha256": "a66f90b4572b779cc03760fb16c0f18a73e4b9deeb529f1806d57ff823e5f38e",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/AtiusAmy/fluffychat/releases/latest",
